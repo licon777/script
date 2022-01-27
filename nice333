@@ -1,0 +1,477 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local rumble = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local hud = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local fps = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local drop = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local afk = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local farm = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local small = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local smallac = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local gloves = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local fastpunch = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local popup = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local safe = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local invortory = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local loop = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local revis = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_18 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.174277022, 0, 0.198786035, 0)
+Frame.Size = UDim2.new(0, 590, 0, 397)
+Frame.Active = true
+Frame.Draggable = true
+
+rumble.Name = "rumble"
+rumble.Parent = Frame
+rumble.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+rumble.Position = UDim2.new(-0.000519316061, 0, 0.176521897, 0)
+rumble.Size = UDim2.new(0, 180, 0, 50)
+rumble.Font = Enum.Font.SourceSans
+rumble.Text = "Del Rumble"
+rumble.TextColor3 = Color3.fromRGB(0, 0, 0)
+rumble.TextScaled = true
+rumble.TextSize = 14.000
+rumble.TextWrapped = true
+
+UICorner.Parent = rumble
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel.Size = UDim2.new(0, 590, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "gunonm_alt farm"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 135)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 255))}
+UIGradient.Parent = Frame
+
+hud.Name = "hud"
+hud.Parent = Frame
+hud.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+hud.Position = UDim2.new(0.693226516, 0, 0.175624818, 0)
+hud.Size = UDim2.new(0, 180, 0, 50)
+hud.Font = Enum.Font.SourceSans
+hud.Text = "Del Hud"
+hud.TextColor3 = Color3.fromRGB(0, 0, 0)
+hud.TextScaled = true
+hud.TextSize = 14.000
+hud.TextWrapped = true
+
+UICorner_3.Parent = hud
+
+fps.Name = "fps"
+fps.Parent = Frame
+fps.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+fps.Position = UDim2.new(-0.000519316061, 0, 0.38135457, 0)
+fps.Size = UDim2.new(0, 180, 0, 50)
+fps.Font = Enum.Font.SourceSans
+fps.Text = "FPS"
+fps.TextColor3 = Color3.fromRGB(0, 0, 0)
+fps.TextScaled = true
+fps.TextSize = 14.000
+fps.TextWrapped = true
+
+UICorner_4.Parent = fps
+
+drop.Name = "drop"
+drop.Parent = Frame
+drop.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+drop.Position = UDim2.new(0.693226516, 0, 0.380352646, 0)
+drop.Size = UDim2.new(0, 180, 0, 50)
+drop.Font = Enum.Font.SourceSans
+drop.Text = "Drop Your Self"
+drop.TextColor3 = Color3.fromRGB(0, 0, 0)
+drop.TextScaled = true
+drop.TextSize = 14.000
+drop.TextWrapped = true
+
+UICorner_5.Parent = drop
+
+afk.Name = "afk"
+afk.Parent = Frame
+afk.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+afk.Position = UDim2.new(0.693226516, 0, 0.591939628, 0)
+afk.Size = UDim2.new(0, 180, 0, 50)
+afk.Font = Enum.Font.SourceSans
+afk.Text = "Anti AFK"
+afk.TextColor3 = Color3.fromRGB(0, 0, 0)
+afk.TextScaled = true
+afk.TextSize = 14.000
+afk.TextWrapped = true
+
+UICorner_6.Parent = afk
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+TextBox.Position = UDim2.new(0.320338964, 0, 0.566750646, 0)
+TextBox.Size = UDim2.new(0, 204, 0, 70)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "Double Weight"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_7.Parent = TextBox
+
+farm.Name = "farm"
+farm.Parent = Frame
+farm.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+farm.Position = UDim2.new(0.340677977, 0, 0.836272061, 0)
+farm.Size = UDim2.new(0, 180, 0, 50)
+farm.Font = Enum.Font.SourceSans
+farm.Text = "Farm"
+farm.TextColor3 = Color3.fromRGB(0, 0, 0)
+farm.TextScaled = true
+farm.TextSize = 14.000
+farm.TextWrapped = true
+
+UICorner_8.Parent = farm
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+ScrollingFrame.Position = UDim2.new(-0.00169491523, 0, 0.566750646, 0)
+ScrollingFrame.Size = UDim2.new(0, 173, 0, 172)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 27.6976738)
+
+small.Name = "small"
+small.Parent = ScrollingFrame
+small.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+small.Position = UDim2.new(0.0693641603, 0, 0.121174216, 0)
+small.Size = UDim2.new(0, 134, 0, 50)
+small.Font = Enum.Font.SourceSans
+small.Text = "Small"
+small.TextColor3 = Color3.fromRGB(0, 0, 0)
+small.TextScaled = true
+small.TextSize = 14.000
+small.TextWrapped = true
+
+UICorner_9.Parent = small
+
+smallac.Name = "small ac"
+smallac.Parent = ScrollingFrame
+smallac.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+smallac.Position = UDim2.new(0.0693641603, 0, 0.882900774, 0)
+smallac.Size = UDim2.new(0, 134, 0, 50)
+smallac.Font = Enum.Font.SourceSans
+smallac.Text = "Small Ac"
+smallac.TextColor3 = Color3.fromRGB(0, 0, 0)
+smallac.TextScaled = true
+smallac.TextSize = 14.000
+smallac.TextWrapped = true
+
+UICorner_10.Parent = smallac
+
+gloves.Name = "gloves"
+gloves.Parent = ScrollingFrame
+gloves.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+gloves.Position = UDim2.new(0.0693641603, 0, 0.220813081, 0)
+gloves.Size = UDim2.new(0, 134, 0, 50)
+gloves.Font = Enum.Font.SourceSans
+gloves.Text = "Change Gloves"
+gloves.TextColor3 = Color3.fromRGB(0, 0, 0)
+gloves.TextScaled = true
+gloves.TextSize = 14.000
+gloves.TextWrapped = true
+
+UICorner_11.Parent = gloves
+
+fastpunch.Name = "fast punch"
+fastpunch.Parent = ScrollingFrame
+fastpunch.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+fastpunch.Position = UDim2.new(0.0693641603, 0, 0.327089787, 0)
+fastpunch.Size = UDim2.new(0, 134, 0, 50)
+fastpunch.Font = Enum.Font.SourceSans
+fastpunch.Text = "Punch Faster :)"
+fastpunch.TextColor3 = Color3.fromRGB(0, 0, 0)
+fastpunch.TextScaled = true
+fastpunch.TextSize = 14.000
+fastpunch.TextWrapped = true
+
+UICorner_12.Parent = fastpunch
+
+popup.Name = "pop up"
+popup.Parent = ScrollingFrame
+popup.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+popup.Position = UDim2.new(0.0693641677, 0, 0.436456561, 0)
+popup.Size = UDim2.new(0, 134, 0, 50)
+popup.Font = Enum.Font.SourceSans
+popup.Text = "Disable Pop Up"
+popup.TextColor3 = Color3.fromRGB(0, 0, 0)
+popup.TextScaled = true
+popup.TextSize = 14.000
+popup.TextWrapped = true
+
+UICorner_13.Parent = popup
+
+safe.Name = "safe"
+safe.Parent = ScrollingFrame
+safe.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+safe.Position = UDim2.new(0.0693641603, 0, 0.549806714, 0)
+safe.Size = UDim2.new(0, 134, 0, 50)
+safe.Font = Enum.Font.SourceSans
+safe.Text = "Tp To Safe Zone"
+safe.TextColor3 = Color3.fromRGB(0, 0, 0)
+safe.TextScaled = true
+safe.TextSize = 14.000
+safe.TextWrapped = true
+
+UICorner_14.Parent = safe
+
+invortory.Name = "invortory"
+invortory.Parent = ScrollingFrame
+invortory.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+invortory.Position = UDim2.new(0.0693641603, 0, 0.65385741, 0)
+invortory.Size = UDim2.new(0, 134, 0, 50)
+invortory.Font = Enum.Font.SourceSans
+invortory.Text = "hide inventory / keep your weights"
+invortory.TextColor3 = Color3.fromRGB(0, 0, 0)
+invortory.TextScaled = true
+invortory.TextSize = 14.000
+invortory.TextWrapped = true
+
+UICorner_15.Parent = invortory
+
+loop.Name = "loop"
+loop.Parent = ScrollingFrame
+loop.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+loop.Position = UDim2.new(0.0693641603, 0, 0.763912499, 0)
+loop.Size = UDim2.new(0, 134, 0, 50)
+loop.Font = Enum.Font.SourceSans
+loop.Text = "Loop Kidz"
+loop.TextColor3 = Color3.fromRGB(0, 0, 0)
+loop.TextScaled = true
+loop.TextSize = 14.000
+loop.TextWrapped = true
+
+UICorner_16.Parent = loop
+
+revis.Name = "revis"
+revis.Parent = Frame
+revis.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+revis.Position = UDim2.new(0.693226516, 0, 0.811083138, 0)
+revis.Size = UDim2.new(0, 180, 0, 50)
+revis.Font = Enum.Font.SourceSans
+revis.Text = "Revis Admin"
+revis.TextColor3 = Color3.fromRGB(0, 0, 0)
+revis.TextScaled = true
+revis.TextSize = 14.000
+revis.TextWrapped = true
+
+UICorner_17.Parent = revis
+
+close.Name = "close"
+close.Parent = Frame
+close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+close.Position = UDim2.new(0.945762694, 0, 0, 0)
+close.Size = UDim2.new(0, 32, 0, 20)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel_2.Position = UDim2.new(0, 0, 0.565714717, 0)
+TextLabel_2.Size = UDim2.new(0, 159, 0, 41)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "if u enjoy this script then pls go sub to my yt @gunonm_ alt"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_18.Parent = TextLabel_2
+
+
+
+local plr = game.Players.LocalPlayer
+local char = plr.Character
+local mouse = plr:GetMouse()
+
+local debounce = false
+local farming = nil
+
+function StartFarm()
+	farming = true
+	farm.BackgroundColor3 = Color3.fromRGB(255,0,0)
+	wait()
+	while farming == true do
+		wait(0.6)
+		for i,v in pairs(char:GetChildren()) do
+			if v.Name == TextBox.Text then
+				v:Activate()
+			else
+				for i,v in pairs(plr.Backpack:GetChildren()) do
+					if v.Name == TextBox.Text then
+						v.Parent = plr.Character
+					end
+				end
+			end
+		end
+	end
+end
+
+function StopFarm()
+	farm.BackgroundColor3 = Color3.fromRGB(0,255,0)
+	farming = false
+end
+
+farm.MouseButton1Click:Connect(function()
+	if debounce == false then 
+		debounce = true
+		StartFarm()
+	else
+		debounce = false
+		StopFarm()
+	end
+end)
+
+fps.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/mmEr60d5", true))()
+end)
+
+revis.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pGhYnsxA", true))()
+end)
+
+afk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/SN4agUmB", true))()
+end)
+
+hud.MouseButton1Down:connect(function()
+	game:GetService("Players").LocalPlayer.PlayerGui.HUD:Destroy()
+end)
+
+invortory.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/8W1draqT", true))()
+end)
+
+drop.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/CjVD4RZN", true))()
+end)
+
+rumble.MouseButton1Click:Connect(function()
+	game.ReplicatedFirst.TourneyQ:Destroy()
+end)
+
+loop.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects('rbxassetid://1010374652')[1].Source)() 
+end)
+
+fastpunch.MouseButton1Click:Connect(function()
+	old = hookfunction(wait,function(t)
+		if not checkcaller() and getcallingscript().Name == "MouseIcon" then
+			return old()
+		end
+		return old(t)
+	end)
+end)
+
+small.MouseButton1Click:Connect(function()
+	for i,v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetChildren()) do
+		if v:IsA("NumberValue") then
+			v:Destroy()
+		end
+	end
+end)
+
+afk.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/SN4agUmB", true))()
+end)
+
+smallac.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.BodyDepthScale.Value = 1
+	game.Players.LocalPlayer.Character.Humanoid.BodyHeightScale.Value = 1
+	game.Players.LocalPlayer.Character.Humanoid.BodyWidthScale.Value = 1
+	game.Players.LocalPlayer.Character.Humanoid.HeadScale.Value = 1
+end)
+
+close.MouseButton1Click:Connect(function()
+	close.Visible = true
+	Frame.Visible = false
+	close.Visible = false
+end)
+
+popup.MouseButton1Click:Connect(function()
+	game:GetService("Players").LocalPlayer.PlayerGui.HUD.Frame.MuscleGain:Destroy()
+end)
+
+safe.MouseButton1Click:Connect(function()
+	char.HumanoidRootPart.CFrame = CFrame.new(-1941, 353, -5311)
+end)
+
+--[[local debounce = true
+
+plr:GetMouse().KeyDown(function(key)
+	local key = string.lower(key)
+	wait()
+	if string.byte(key) == 48 then
+		if debounce == true then
+			debounce = false
+			Main.Visible = false
+		else
+				debounce = true
+				main.Visible = true
+		end
+	end
+end)]]
+
+local debounce = true
+
+mouse.KeyDown:Connect(function(key)
+	local key = string.upper(key)
+	wait()
+	if string.byte(key) == 47 then
+		if debounce == true then
+			debounce = false
+			Frame.Visible = false
+		else
+			debounce = true
+			Frame.Visible = true
+		end
+	end
+end)
